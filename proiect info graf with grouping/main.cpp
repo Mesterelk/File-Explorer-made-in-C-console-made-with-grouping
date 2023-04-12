@@ -379,7 +379,7 @@ int main(){
         cin.getline(hmm,200);
         cout<<"Numele/adresa folderului unde trebuie adaugat:";
         cin.getline(oh,200);
-        add(oh);
+        //add(oh);
     }else if (caz==10){
 
 
@@ -388,3 +388,5 @@ int main(){
     cout<<'\n'<<'\n'<<"Ce mai vreti sa faceti? "<<'\n'<<'\n'<<"1. afisarea matricei"<<'\n'<<"2. schimba numele unui folder/fisier"<<'\n'<<"3. gasirea adresei unui fisier/folder"<<'\n';
     cout<<"4. gasirea adresei a tuturor fisierelor/folderelor cu acelasi nume"<<'\n'<<"5. Stergerea unui folder/fisier"<<'\n'<<"6. Ce contine un fisier"<<'\n';
     cout<<"7. Tot ce contine un fisier (subfoldere)"<<'\n'<<"8. Deschide un folder"<<'\n';
+    }
+}
